@@ -35,5 +35,6 @@ public class Ejemplo02 {
     }
 }
 /*
-aqui es un ciclo while donde se im
+se pide un limite al usuario y a partir de eso se empieza desde el numero 1
+sumando de manera impar hasta llegar al limite ya definido
 */

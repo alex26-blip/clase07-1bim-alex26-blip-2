@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo03 {
+public class Ejemplo032 {
 
     /**
      * @param args the command line arguments
@@ -28,7 +28,14 @@ public class Ejemplo03 {
         
         while (contador <= limite) { 
             System.out.println("Ingrese el valor a sumar");
-            valor_ingresado = entrada.nextInt();
+            valor_ingresado = entrada.nextInt();//20
+            //>=20 y <=35
+            // caso contrario---50
+            if(valor_ingresado>=20 && valor_ingresado<=35){
+            suma = suma + valor_ingresado;
+            }else{
+                suma = suma +50;
+            }
             suma = suma + valor_ingresado;
             System.out.printf("Valor ingresado %d\n", 
                     valor_ingresado);

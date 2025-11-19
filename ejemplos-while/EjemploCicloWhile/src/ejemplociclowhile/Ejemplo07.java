@@ -31,7 +31,7 @@ public class Ejemplo07 {
         int contador = 0;
 
         System.out.println("Ingrese las notas de los estudiantes de su materia");
-        while (bandera) {
+        while (bandera) { // while (bandera==true)
             System.out.println("Ingrese calificación");
             calificacion = entrada.nextDouble();
             suma_total = suma_total + calificacion;
@@ -49,4 +49,5 @@ public class Ejemplo07 {
         System.out.printf("El promedio final es %.2f\n", promedio_final);
 
     }
-}
+} // calcula la nota del promedio de una materia ingresa el promedio que lo
+//divde para el contador 
